@@ -1,0 +1,176 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #F90;	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.125rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    width: 60%;
+    font-weight: 700;
+}
+
+#callToAction {
+    font-size: 1.5rem;
+    text-align: center;
+    /* width: 100%; */
+}
+
+/* .shopee {
+    font-weight: 700;
+    color: #F90;
+} */
+
+.bgCover {
+    background-image: url(./img/banner-bg.png);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.line {
+    background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+    width: 150px;
+    height: 5px;
+    margin-bottom: 10px !important;
+}
+
+#Partners img {
+    width: 100px;
+    height: 100px;
+}
+
+iframe {
+    width: 100%;
+    height: 315px
+} 
+
+#mockup, .marketingMockup {
+    width: 100%;
+}
+
+.marketingText {
+    background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+    color: #F5F5F5;
+}
+
+footer {
+    background-image: url(./img/footer-bg.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+footer li, .copyright p {
+    font-size: 0.9rem;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+.contactSubmission {
+    padding: 25px;
+    box-shadow: 0px 0px 18px 0px rgb(50 77 215 / 14%);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.instructions {
+    padding: 25px;
+    box-shadow: 0px 0px 18px 0px rgb(50 77 215 / 14%);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#btn-b2t {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    display: none;
+    z-index: 3;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 75%;
+    }
+
+    iframe {
+        width: 80%;
+        height: 472px;
+    }
+
+    #mockup {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #callToAction {
+        font-size: 1.75rem;
+        /* text-align: left; */
+    }
+
+    .marketingMockup {
+        width: 85%;
+    }
+
+    .contactSubmission {
+        padding: 75px 25px;
+    }
+}
