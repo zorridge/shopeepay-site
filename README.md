@@ -1,5 +1,7 @@
 # ShopeePay Product Landing Page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72a4c49d-dd43-492a-97ae-8d807d5b532f/deploy-status)](https://app.netlify.com/sites/shopeepay-opv/deploys)
+
 Live site: https://shopeepay-opv.netlify.app/
 
 ## Web View
